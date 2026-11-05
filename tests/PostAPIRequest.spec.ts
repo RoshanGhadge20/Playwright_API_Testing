@@ -8,13 +8,13 @@ test("Post API Call", async ({ request }) => {
             contentType: "application/json"
         },
         data: {
-            "firstname": "Lavnaya",
+            "firstname": "Shubham",
             "lastname": "Ghadge",
             "totalprice": 222,
             "depositpaid": true,
             "bookingdates": {
-                "checkin": "2026-02-11",
-                "checkout": "2026-03-11"
+                "checkin": "2026-05-11",
+                "checkout": "2026-06-11"
             },
             "additionalneeds": "Breakfast"
         }

@@ -2,17 +2,17 @@ import { test, expect } from '@playwright/test';
 
 test('Patch API Request', async ({ request }) => {
 
-    const response = await request.patch('https://restful-booker.herokuapp.com/booking/1641', {
+    const response = await request.patch('https://restful-booker.herokuapp.com/booking/2658', {
         headers:
         {
             contentType: 'application/json',
             Accept: 'application/json',
-            Cookie: 'token=e6ba8e8e9eec184'
+            Cookie: 'token=857777b692cb8de'
         },
         data:
         {
-            "firstname": "James",
-            "lastname": "Brown"
+            "firstname": "Roshan",
+            "lastname": "Ghadge"
         }
     });
 
